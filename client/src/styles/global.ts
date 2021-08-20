@@ -14,6 +14,21 @@ export const GlobalStyle = createGlobalStyle`
   margin: 0;
   padding: 0;
   color: #fff;
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 20px (var(--bg));
+    margin-left: 5px;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #eee;
+    border-radius: 10px;
+  }
 }
 
 @media (max-width: 1080px) {

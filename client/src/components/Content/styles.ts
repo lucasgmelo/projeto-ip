@@ -20,7 +20,7 @@ export const Container = styled.div`
 
 export const ChartList = styled.section`
   margin-bottom: 20px;
-  max-width: 30%;
+  max-width: 40%;
 `;
 
 export const Description = styled.p`
