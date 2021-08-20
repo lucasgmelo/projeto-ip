@@ -2,9 +2,8 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 :root {
-  --bg: #1e1e26;
-  --bg-light: #1a1a21;
-  --bg-dark: #16161c;
+  --bg: #1B1B22;
+  --bg-light: #24232E;
   --gradient: linear-gradient(249.73deg, #f29682 0%, #ee69ac 50%, #cb4bcf 100%);
   --gray: #D7D7D7;
   --info: #BBB;
@@ -35,7 +34,7 @@ body {
   color: #f9f9f9;
   background: var(--bg);
 
-  max-height: 100vh;
+  min-height: 100vh;
 }
 
 body, input, textarea, select, button {
