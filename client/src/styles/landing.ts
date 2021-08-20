@@ -7,7 +7,10 @@ export const Container = styled.div`
 
 export const Body = styled.div`
     height: 100%;
+    width: 100%;
     border-radius: 8px;
     background: var(--bg-light);
-    display: flex;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
 `;

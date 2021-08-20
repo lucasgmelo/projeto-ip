@@ -1,6 +1,9 @@
+import { useChart } from "../../hooks/useChart";
 import { Container, Item, List } from "./styles";
 
 export const Menu = () => {
+  const { activeTab, setActiveTab, chartData } = useChart();
+
   return (
     <Container>
       <svg
@@ -14,11 +17,7 @@ export const Menu = () => {
       </svg>
       <h2>Análises disponíveis</h2>
       <List>
-        <Item isActive={true} ><p>Pessoas com deficiência</p></Item>
-        <Item isActive={false}><p>Presença de mulheres na tecnologia</p></Item>
-        <Item isActive={false} ><p>Pessoas com deficiência</p></Item>
-        <Item isActive={false}><p>Presença de mulheres na tecnologia</p></Item>
-
+        {chartData?.map(chartData => <Item isActive={activeTab == chartData.id} onClick={() => setActiveTab(chartData.id)} ><p>{chartData.title}</p></Item>)}
       </List>
     </Container>
   );

@@ -25,8 +25,7 @@ export const ChartList = styled.section`
 
 export const Description = styled.p`
   color: #eee;
-  margin-bottom: 35px;
-  max-width: 70%;
+  margin: 35px 0;
 `;
 
 export const Subtitle = styled.h3`
