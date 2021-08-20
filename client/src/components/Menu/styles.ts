@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.div`
-  width: 275px;
+  width: 350px;
   height: 100%;
   border-right: 1px solid rgba(126, 125, 138, 0.3);
 
@@ -15,7 +15,7 @@ export const Container = styled.div`
     margin: 40px auto 40px;
     width: 40px;
     height: 40px;
-    fill: #fafafa;
+    fill: #7146EA;
   }
 
   h2 {
@@ -39,7 +39,7 @@ type ItemProps = {
 const ListModifiers = {
   isActive: () => css`
     background: #1c1d24;
-    color: white;
+    color: #b47df2;
     opacity: 1;
   `,
 };
@@ -53,9 +53,6 @@ export const List = styled.ul`
 
 export const Item = styled.li<ItemProps>`
   ${({ isActive }) => css`
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
     margin-bottom: 5px;
 
@@ -63,8 +60,10 @@ export const Item = styled.li<ItemProps>`
 
     color: #7E7D8A;
 
-    padding: 15px 0;
+    padding: 15px 10px;
     cursor: pointer;
+
+    transition: .3s;
 
     &:hover {
         ${!isActive && ListModifiers.isActive()}
