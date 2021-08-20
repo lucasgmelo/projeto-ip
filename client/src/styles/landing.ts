@@ -9,4 +9,5 @@ export const Body = styled.div`
     height: 100%;
     border-radius: 8px;
     background: var(--bg-light);
+    display: flex;
 `;
