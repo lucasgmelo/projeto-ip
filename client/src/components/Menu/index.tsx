@@ -14,10 +14,11 @@ export const Menu = () => {
       </svg>
       <h2>Análises disponíveis</h2>
       <List>
-        <Item isActive={true} >Pessoas com deficiência</Item>
-        <Item isActive={false}>Presença de mulheres na tecnologia</Item>
-        <Item isActive={false} >Pessoas com deficiência</Item>
-        <Item isActive={false}>Presença de mulheres na tecnologia</Item>
+        <Item isActive={true} ><p>Pessoas com deficiência</p></Item>
+        <Item isActive={false}><p>Presença de mulheres na tecnologia</p></Item>
+        <Item isActive={false} ><p>Pessoas com deficiência</p></Item>
+        <Item isActive={false}><p>Presença de mulheres na tecnologia</p></Item>
+
       </List>
     </Container>
   );

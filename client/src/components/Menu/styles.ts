@@ -39,8 +39,13 @@ type ItemProps = {
 const ListModifiers = {
   isActive: () => css`
     background: #1c1d24;
-    color: #b47df2;
     opacity: 1;
+
+    p {
+      background: -webkit-linear-gradient(left, #b47df2, #7146EA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
   `,
 };
 
@@ -58,7 +63,9 @@ export const Item = styled.li<ItemProps>`
 
     border-radius: 4px;
 
-    color: #7E7D8A;
+    p {
+      color: #7E7D8A;
+    }
 
     padding: 15px 10px;
     cursor: pointer;
