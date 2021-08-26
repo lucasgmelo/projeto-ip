@@ -15,4 +15,7 @@
   * [Docentes](https://github.com/lucasgmelo/projeto-ip/blob/main/analise_docentes.ipynb)
   * [Sistema de Cotas](https://github.com/lucasgmelo/projeto-ip/blob/main/analise_cotistas.ipynb)
 
-* ### [Link do DashBoard](https://data-dashboard.vercel.app/)
+#### [Link de uma DashBoard para uma visualização dos dados mais holística](https://data-dashboard.vercel.app/)
+
+* ### Tente criar sua própria visualização de dados! Disponibilizamos um template para ajudar.
+  * [Templates](https://github.com/lucasgmelo/projeto-ip/blob/main/template.ipynb)
