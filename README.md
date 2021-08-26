@@ -14,3 +14,5 @@
   * ## [Cores e Raças](https://github.com/lucasgmelo/projeto-ip/blob/main/analise_racas.ipynb)
   * ## [Docentes](https://github.com/lucasgmelo/projeto-ip/blob/main/analise_docentes.ipynb)
   * ## [Sistema de Cotas](https://github.com/lucasgmelo/projeto-ip/blob/main/analise_cotistas.ipynb)
+
+* ### [Link do DashBoard](https://data-dashboard.vercel.app/)
