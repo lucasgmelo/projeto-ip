@@ -7,12 +7,12 @@
   * Na pasta raiz do projeto, escreva no terminal `jupyter notebook` e navegue pelos notebooks.
 
 * ### Mapeamento dos Notebooks
-  * ## [UFRPE](https://github.com/lucasgmelo/projeto-ip/blob/main/ufrpe_analise.ipynb)
-  * ## [UFPE](https://github.com/lucasgmelo/projeto-ip/blob/main/ufpe_analise.ipynb)
-  * ## [Desigualdade de Gênero](https://github.com/lucasgmelo/projeto-ip/blob/main/analise_idmed.ipynb)
-  * ## [Pessoas com Deficiência](https://github.com/lucasgmelo/projeto-ip/blob/main/deficiencia_analise.ipynb)
-  * ## [Cores e Raças](https://github.com/lucasgmelo/projeto-ip/blob/main/analise_racas.ipynb)
-  * ## [Docentes](https://github.com/lucasgmelo/projeto-ip/blob/main/analise_docentes.ipynb)
-  * ## [Sistema de Cotas](https://github.com/lucasgmelo/projeto-ip/blob/main/analise_cotistas.ipynb)
+  * [UFRPE](https://github.com/lucasgmelo/projeto-ip/blob/main/ufrpe_analise.ipynb)
+  * [UFPE](https://github.com/lucasgmelo/projeto-ip/blob/main/ufpe_analise.ipynb)
+  * [Desigualdade de Gênero](https://github.com/lucasgmelo/projeto-ip/blob/main/analise_idmed.ipynb)
+  * [Pessoas com Deficiência](https://github.com/lucasgmelo/projeto-ip/blob/main/deficiencia_analise.ipynb)
+  * [Cores e Raças](https://github.com/lucasgmelo/projeto-ip/blob/main/analise_racas.ipynb)
+  * [Docentes](https://github.com/lucasgmelo/projeto-ip/blob/main/analise_docentes.ipynb)
+  * [Sistema de Cotas](https://github.com/lucasgmelo/projeto-ip/blob/main/analise_cotistas.ipynb)
 
 * ### [Link do DashBoard](https://data-dashboard.vercel.app/)
