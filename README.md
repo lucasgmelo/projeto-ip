@@ -1,4 +1,4 @@
-## Visualização de Dados: Censo da Educação Superior- 2019
+## Visualização de Dados: Censo da Educação Superior - 2019
 
 * ### Como rodar o projeto na sua máquina
   * Clone o projeto. Basta digitar ` git clone https://github.com/lucasgmelo/projeto-ip.git` no terminal.
